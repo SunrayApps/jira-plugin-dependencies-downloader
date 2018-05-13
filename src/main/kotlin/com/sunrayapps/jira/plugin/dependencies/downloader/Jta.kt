@@ -11,9 +11,9 @@ class Jta(
     private val installDirectory: Path,
     private val maven: Maven
 ) {
-    val jarName = "jta-1.0.1.jar"
-    val archiveFileName = "jta-1.0.1.jar.zip"
-    val url = "http://www.java2s.com/Code/JarDownload/jta/$archiveFileName"
+    private val jarName = "jta-1.0.1.jar"
+    private val archiveFileName = "jta-1.0.1.jar.zip"
+    private val url = "http://www.java2s.com/Code/JarDownload/jta/$archiveFileName"
 
     fun download(): Jta {
         copyURLToFile(
