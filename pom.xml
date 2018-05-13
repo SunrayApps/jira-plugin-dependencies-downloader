@@ -5,7 +5,7 @@
 
     <groupId>com.sunrayapps.jira.plugin</groupId>
     <artifactId>dependencies-downloader</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
 
     <name>com.sunrayapps.jira.plugin dependencies-downloader</name>
