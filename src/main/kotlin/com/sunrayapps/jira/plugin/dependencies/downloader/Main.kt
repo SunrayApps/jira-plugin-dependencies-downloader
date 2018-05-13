@@ -17,5 +17,15 @@ fun main(args: Array<String>) {
         .unzip()
         .install()
         .clean()
+
+    Jndi(
+        installDirectory = Paths.get("."),
+        maven = Maven(
+            mavenExecutable = params.maven
+        )
+    ).download()
+        .unzip()
+        .install()
+        .clean()
 }
 
